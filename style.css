@@ -1,0 +1,50 @@
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu_item {
+    display: inline;
+    background-color:antiquewhite;
+    border: solid rgb(251, 171, 74) 1px;
+    padding: 10px;
+    position: relative;
+}
+
+.menu_item:hover {
+    .submenu {
+        display: block;
+    }
+}
+
+.submenu {
+    list-style-type: none;
+    position: absolute;
+    padding: 0;
+    top: 90%;
+    left: 7px;
+    z-index: 1;
+    display: none;
+}
+
+.submenu_item {
+    background-color:antiquewhite;
+    border: solid rgb(251, 171, 74) 1px;
+    padding: 10px;
+    position: relative;
+    min-width: 150px;
+}
+
+.next_submenu {
+    list-style-type: none;
+    position: absolute;
+    padding: 0;
+    top: 10%;
+    left: 95%;
+    z-index: 1;
+}
+
+
+
+
+
